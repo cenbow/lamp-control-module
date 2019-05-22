@@ -1,0 +1,4 @@
+smartcity:
+  lamp:
+    name: 智慧城市-灯具控制系统[测试环境]
+    port: 8081

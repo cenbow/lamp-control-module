@@ -1,0 +1,10 @@
+logging:
+  level:
+    com.owen.lamp_control_module_application: info
+#    com.owen.lamp.lamp_type_service: info
+
+server:
+  port: 13010
+spring:
+  profiles:
+    include: netty_dev,redis_dev,dubbo_dev

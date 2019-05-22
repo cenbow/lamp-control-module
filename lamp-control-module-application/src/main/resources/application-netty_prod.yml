@@ -1,0 +1,4 @@
+smartcity:
+  lamp:
+    name: 智慧城市-灯具控制系统
+    port: 8082

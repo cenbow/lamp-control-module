@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: aliyunHost
+    port: 30000
+    jedis:
+      pool:
+        max-idle: 20
+        min-idle: 1
+        max-active: 20
+        max-wait: 60000

@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: smartcity.server
+    port: 6379
+    jedis:
+      pool:
+        max-idle: 20
+        min-idle: 1
+        max-active: 20
+        max-wait: 60000
+    password: yckj2018.

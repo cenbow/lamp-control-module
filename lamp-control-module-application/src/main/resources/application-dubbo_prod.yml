@@ -1,0 +1,23 @@
+# dubbo相关配置
+dubbo:
+  application:
+    # 程序名称
+    name: LCM
+  # 服务发现的扫描包路径
+  scan: com.owen.lamp.lamp_type_service.service
+  protocol:
+    # 协议名称
+    name: dubbo
+    # 服务线程池大小
+    threads: 300
+    # 只有请求响应消息派发到线程池，其它连接断开事件，心跳等消息，直接在IO线程上执行。
+    dispatcher: message
+    port: 10011
+  provider:
+    retries: 0
+  service:
+    version: 1.0
+  # 服务注册中心
+  registry:
+    address: zookeeper://smartcity.server:2181
+    check: false
